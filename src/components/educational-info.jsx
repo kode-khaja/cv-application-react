@@ -13,4 +13,11 @@ function EduInfo({formData, onChange}) {
         <input type="text" name="fieldOfStudy" value={formData.fieldOfStudy} onChange={onChange}/>
 
         <label>Graduation Date</label>
-        <input type="date" name
+        <input type="date" name="gradDate" value={formData.gradDate} onChange={onChange}/>
+        
+        
+        </div>
+    )
+}
+
+export default EduInfo;

@@ -49,4 +49,56 @@ function handleInput(e) {
       <h3>Field Of Study </h3>
       <p>{formData.fieldOfStudy}</p>
       <h3>Graduation Date </h3>
-      <p>{formDat
+      <p>{formData.gradDate}</p>
+      </section>
+
+      <section>
+      <h3>Work Company </h3>
+      <p>{formData.workCompany}</p>
+      <h3>Position </h3>
+      <p>{formData.workPosition}</p>
+      <h3>Responsibilities </h3>
+      <p>{formData.responsibilities}</p>
+      </section>
+      <button type="button" onClick={onSubmit}>edit </button>
+
+ </>
+   : 
+   <>
+    <section>
+     <GeneralInfo 
+     formData={formData}
+     onChange={handleInput}
+     />
+    </section>
+
+    <section>
+     <EduInfo      
+     formData={formData}
+     onChange={handleInput}
+     />
+    </section>
+
+    <section>
+     <WorkExp 
+     formData={formData}
+     onChange={handleInput}
+     />
+    </section>
+
+    <div className="buttons"> 
+    <button type="submit" onClick={onSubmit}>submit </button>
+    </div>
+
+
+
+   </>}
+   </form>
+
+
+    </>
+    );
+  }
+    
+ 
+export default App

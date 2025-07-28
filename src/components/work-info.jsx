@@ -13,4 +13,11 @@ function WorkExp({ formData, onChange}) {
         <input type="text" name="workPosition" value={formData.workPosition} onChange={onChange}/>
 
         <label>Responsibilities At Position</label>
-        <textarea placeholder="Daily rundown etc" name="resp
+        <textarea placeholder="Daily rundown etc" name="responsibilities" 
+        value={formData.responsibilities} onChange={onChange}>
+        </textarea>
+        </div>
+    )
+}
+
+export default WorkExp;

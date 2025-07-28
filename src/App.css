@@ -7,4 +7,34 @@
   flex-wrap: wrap;
   justify-content: space-between;
   color: rgb(224, 241, 150);
-  fon
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+.header {
+  margin-top: 0px;
+}
+
+h3 {
+  color: rgb(167, 168, 166);
+}
+
+
+.header-desc {
+  color: white;
+}
+
+section {
+  gap: 10rem;
+}
+
+
+button {
+  max-width: 8rem;
+  max-height: 3rem;
+  text-align: center;
+  background-color:rgb(224, 241, 150);
+  color: black
+  ;
+}
