@@ -101,4 +101,4 @@ function handleInput(e) {
   }
     
  
-export default App
+export default App;
